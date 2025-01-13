@@ -14,8 +14,21 @@ const props = defineProps({
 </template>
 
 <style scoped>
-.social-img {
-    margin-right: 10px;
-    filter: opacity(0.8);
+a {
+    margin-left: 10px;
+  display: inline-block;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
+
+a:hover {
+  transform: scale(1.2);
+  filter: brightness(1.3);
+}
+
+.social-img {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+
 </style>
