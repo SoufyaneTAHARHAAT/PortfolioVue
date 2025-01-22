@@ -3,7 +3,7 @@
 
 <template>
     <div id="skills">
-        <h2 class="text-highlight-1 section-title">Mes Tchnos</h2>
+        <h2 class="text-highlight-1 section-title">My Tech Toolboxs</h2>
         <div id="icons-list">
             <div class="techno-container">
                 <i class="techno-icon devicon-html5-plain"></i>

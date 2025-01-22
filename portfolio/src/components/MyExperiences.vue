@@ -5,18 +5,18 @@ import { ref } from 'vue';
 
     const experiences = ref([
         {
-            title: 'Software developer',
+            title: 'Web developer',
             date: '3 months',
-            line1: "This is the first line",
-            line2: "This is the second line",
-            line3: "This is the third line"
+            line1: "Improvement of Al Barid Bank's official website.",
+            line2: "Optimization of the 'appointment booking' feature.",
+            line3: "Development and integration of reusable components in Vue.js."
         },
         {
             title: 'Web developer',
-            date: '4 months',
-            line1: "This is the first web line",
-            line2: "This is the second web line",
-            line3: "This is the third web line"
+            date: '3 months',
+            line1: "Collaborate with the team to implement new features and improve existing ones for clients using modern frameworks like Vue.js and React",
+            line2: "Test and debug web applications to ensure compatibility across browsers and devices.",
+            line3: "Work on integrating frontend components with backend APIs."
         },
         {
             title: 'Web developer',
@@ -37,8 +37,8 @@ import { ref } from 'vue';
     <div id="experiences">
         <h2 class="text-highlight-1 section-title">My experiences</h2>
         <div id="left">
-            <p :class="activeBloc === 0 ? 'active' : ''" class="company fw600" @click="showExp(0)">FinaTech Systems</p>
-            <p :class="activeBloc === 1 ? 'active' : ''" class="company fw600" @click="showExp(1)">Nibrass</p>
+            <p :class="activeBloc === 0 ? 'active' : ''" class="company fw600" @click="showExp(0)">Internship at Finatech Systems</p>
+            <p :class="activeBloc === 1 ? 'active' : ''" class="company fw600" @click="showExp(1)">Internship at V5 Digital</p>
             <p :class="activeBloc === 2 ? 'active' : ''" class="company fw600" @click="showExp(2)">Cafe</p>
 
         </div>

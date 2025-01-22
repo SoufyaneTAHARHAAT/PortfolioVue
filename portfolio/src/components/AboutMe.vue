@@ -4,18 +4,13 @@
 
 <template>
     <div id="about-me">
-        <h2 class="text-highlight-1 section-title">Qui suis-je ?</h2>
+        <h2 class="text-highlight-1 section-title">About Me</h2>
         <p class="default-text">
-            Lorem ipsum <span class="text-highlight-2">développeur web</span> dolor sit amet consectetur adipisicing elit.
-            Repellendus, <span class="text-highlight-2">développeur web</span> nam soluta eaque laboriosam quisquam optio at harum 
-            cum adipisci consequuntur blanditiis impedit vitae itaque, delectus quaerat eum architecto iusto dolores! Lorem ipsum dolor 
-            sit amet consectetur adipisicing elit. Adipisci, numquam placeat consequatur, nisi culpaitaque sunt autem tempora recusandae 
-            harum distinctio consequuntur <span class="text-highlight-2">développeur web</span> atque doloribus eveniet velit. Iusto, labore consequatur. Tempore.
-            Lorem ipsum <span class="text-highlight-2">développeur web</span> dolor sit amet consectetur adipisicing elit.
-            Repellendus, <span class="text-highlight-2">développeur web</span> nam soluta eaque laboriosam quisquam optio at harum 
-            cum adipisci consequuntur blanditiis impedit vitae itaque, delectus quaerat eum architecto iusto dolores! Lorem ipsum dolor 
-            sit amet consectetur adipisicing elit. Adipisci, numquam placeat consequatur, nisi culpaitaque sunt autem tempora recusandae 
-            harum distinctio consequuntur <span class="text-highlight-2">développeur web</span> atque doloribus eveniet velit. Iusto, labore consequatur. Tempore.
+            Hi, I'm Soufyane, a passionate computer science enthusiast with a deep interest in <span class="text-highlight-2">software development</span> and <span class="text-highlight-2">web development</span>
+            .My expertise extends to mastering modern technologies and frameworks, allowing me to create innovative and efficient solutions. I am also deeply fascinated by the field of artificial intelligence
+            , which inspires me to explore cutting-edge advancements in machine learning and deep learning. Currently, I am pursuing a Master's degree in <span class="text-highlight-2">Data and Connected Systems</span>, a bilingual program (English and French) that has helped me achieve professional fluency in both languages. This enriching program covers a wide range of subjects, including
+            <span class="text-highlight-2">advanced web programming</span>, <span class="text-highlight-2">software engineering</span>,  <span class="text-highlight-2">Machine Learning</span> and <span class="text-highlight-2">Deep Learning</span> 
+            , equipping me with the skills to excel in the ever-evolving tech landscape.
         </p>
     </div>
 </template>
