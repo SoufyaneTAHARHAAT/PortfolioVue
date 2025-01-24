@@ -54,8 +54,8 @@ const getProjectTasks = () => {
    <div class="project">
     <div class="left fade-in" :class="reverse ? 'reverse' : ''">
         <h3 class="text-highlight-1">{{ project.name }}</h3>
-        <a :href="`/src/assets/projects/${project.image}.png`" target="_blanck">
-            <img :src="`/src/assets/projects/${project.image}.png`" :alt="project.name">
+        <a :href="`/assets/${project.image}.png`" target="_blanck">
+            <img :src="`/assets/${project.image}.png`" :alt="project.name">
         </a>
     </div>
 

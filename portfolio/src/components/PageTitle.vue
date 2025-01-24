@@ -4,7 +4,7 @@
 
 <template>
     <div id="top-line">
-        <img id="profile-img" src="../assets/circledId.png" alt="Soufyane TAHARHAAT" width="300px" height="300px">
+        <img id="profile-img" src="/assets/circledId.png" alt="Soufyane TAHARHAAT" width="300px" height="300px">
         <div id="line">
             <p>Hi, I'm <span class="text-highlight-1">Soufyane TAHARHAAT</span>,
             <br> a computer science enthusiast.</p>

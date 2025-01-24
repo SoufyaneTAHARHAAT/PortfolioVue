@@ -17,13 +17,6 @@ import { ref } from 'vue';
             line1: "Collaborate with the team to implement new features and improve existing ones for clients using modern frameworks like Vue.js and React",
             line2: "Test and debug web applications to ensure compatibility across browsers and devices.",
             line3: "Work on integrating frontend components with backend APIs."
-        },
-        {
-            title: 'Web developer',
-            date: '4 months',
-            line1: "This is the first web line",
-            line2: "This is the second web line",
-            line3: "This is the third web line"
         }
     ]);
 
@@ -39,8 +32,6 @@ import { ref } from 'vue';
         <div id="left">
             <p :class="activeBloc === 0 ? 'active' : ''" class="company fw600" @click="showExp(0)">Internship at Finatech Systems</p>
             <p :class="activeBloc === 1 ? 'active' : ''" class="company fw600" @click="showExp(1)">Internship at V5 Digital</p>
-            <p :class="activeBloc === 2 ? 'active' : ''" class="company fw600" @click="showExp(2)">Cafe</p>
-
         </div>
         <div id="right">
             <template v-for="(job, index) in experiences">

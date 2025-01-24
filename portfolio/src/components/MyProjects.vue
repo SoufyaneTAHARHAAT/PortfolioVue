@@ -4,46 +4,25 @@ import SingleProject from './SingleProject.vue';
 
 let projects =ref([
     {
-        name: "project 1",
-        image: "imagesP",
-        tags: "Python; HTML; CSS; Javascript",
-        description: "this is the decription of the first project",
-        tasks: "task1.;task2.;task3"
+        name: "Voting analysis app",
+        image: "deputiesAnalysis",
+        tags: "Python; Dash; Foluim; Jupyter notebook",
+        description: "Development of a political compass application that analyzes French deputies, including their votes, doctrines, and more.",
+        tasks: "Data mining, data collection, and cleaning.;Clustering and classification using machine learning techniques.;Development of a reactive application using the Dash framework."
     },
     {
-        name: "project 2",
-        image: "imagesP",
-        tags: "Python; HTML; CSS; Javascript",
-        description: "this is the decription of the first project",
-        tasks: "task1.;task2.;task3"
+        name: "Finding a coach app",
+        image: "FindACoach",
+        tags: "Vue.js; HTML; CSS; Javascript; Node.js",
+        description: "Development of a reactive application that allows searching for a computer science teacher.",
+        tasks: "Development of the app from scrach.;Using the router to navigate smoothly and easily throughout the app.;Using reusable components"
     },
     {
-        name: "project 3",
-        image: "imagesP",
-        tags: "Python; HTML; CSS; Javascript",
-        description: "this is the decription of the first project",
-        tasks: "task1.;task2.;task3"
-    },
-    {
-        name: "project 4",
-        image: "imagesP",
-        tags: "Python; HTML; CSS; Javascript",
-        description: "this is the decription of the first project",
-        tasks: "task1.;task2.;task3"
-    },
-    {
-        name: "project 5",
-        image: "imagesP",
-        tags: "Python; HTML; CSS; Javascript",
-        description: "this is the decription of the first project",
-        tasks: "task1.;task2.;task3"
-    },
-    {
-        name: "project 6",
-        image: "imagesP",
-        tags: "Python; HTML; CSS; Javascript",
-        description: "this is the decription of the first project loremmmmmmmmmmmmmmme eeeeee e er errrqzef ezfef efefqef fsfef vd d  scs fs  ssdsf eesc qsre dvsdvc trtbr ss vvvv",
-        tasks: "task1.;task2.;task3"
+        name: "MoodSync",
+        image: "MoodSync_logo",
+        tags: "Vue.js; SpringBoot; Postgresql",
+        description: "Development of a social network that analyzes data to provide real-time and relevant solutions tailored to the user's mood.",
+        tasks: "Development of the app from scrach.;Analysis of posts, interactions on social media, and favorite music using Artificial Intelligence.;Using APIs to provide real time solutions such as movies, activities in the area etc."
     }
 ]);
 
@@ -51,7 +30,7 @@ let projects =ref([
 
 <template>
     <div id="projects">
-        <h2 class="text-highlight-1 section-title">My projects</h2>
+        <h2 class="text-highlight-1 section-title"> Some Of My projects</h2>
         <single-project v-for="(project, index) in projects" :key="project.name"
         :project="project" :reverse="index % 2 ===0 ? false : true"/>
     </div>
