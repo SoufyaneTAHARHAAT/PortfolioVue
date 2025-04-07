@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, onUnmounted, handleError } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 
 const props = defineProps({
     project: {
@@ -54,8 +54,8 @@ const getProjectTasks = () => {
    <div class="project">
     <div class="left fade-in" :class="reverse ? 'reverse' : ''">
         <h3 class="text-highlight-1">{{ project.name }}</h3>
-        <a :href="`/assets/${project.image}.png`" target="_blanck">
-            <img :src="`/assets/${project.image}.png`" :alt="project.name">
+        <a :href="`https://soufyanetaharhaat.github.io/PortfolioVue/assets/${project.image}.png`" target="_blanck">
+            <img :src="`https://soufyanetaharhaat.github.io/PortfolioVue/assets/${project.image}.png`" :alt="project.name">
         </a>
     </div>
 

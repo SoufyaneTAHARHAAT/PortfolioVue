@@ -5,18 +5,18 @@ import { ref } from 'vue';
 
     const experiences = ref([
         {
-            title: 'Web developer',
-            date: '3 months',
-            line1: "Improvement of Al Barid Bank's official website.",
-            line2: "Optimization of the 'appointment booking' feature.",
-            line3: "Development and integration of reusable components in Vue.js."
+            title: 'FullStack developer',
+            date: '5 months',
+            line1: "Subject: Development of a web application for sales representatives.",
+            line2: "Tasks: Development of features for managing login, clients, and various sectors.",
+            line3: "Technologies used: Java, React."
         },
         {
-            title: 'Web developer',
+            title: 'Frontend developer',
             date: '3 months',
-            line1: "Collaborate with the team to implement new features and improve existing ones for clients using modern frameworks like Vue.js and React",
-            line2: "Test and debug web applications to ensure compatibility across browsers and devices.",
-            line3: "Work on integrating frontend components with backend APIs."
+            line1: "Subject: Improvement of the official Al Barid Bank website.",
+            line2: "Tasks: Development of the ''Become a Client'' section and optimization of the user interface.",
+            line3: "Technologies used: Vue.js with Typescipt."
         }
     ]);
 
@@ -30,8 +30,8 @@ import { ref } from 'vue';
     <div id="experiences">
         <h2 class="text-highlight-1 section-title">My experiences</h2>
         <div id="left">
-            <p :class="activeBloc === 0 ? 'active' : ''" class="company fw600" @click="showExp(0)">Internship at Finatech Systems</p>
-            <p :class="activeBloc === 1 ? 'active' : ''" class="company fw600" @click="showExp(1)">Internship at V5 Digital</p>
+            <p :class="activeBloc === 0 ? 'active' : ''" class="company fw600" @click="showExp(0)">Internship at AXOPEN</p>
+            <p :class="activeBloc === 1 ? 'active' : ''" class="company fw600" @click="showExp(1)">Internship at Finatech Systems</p>
         </div>
         <div id="right">
             <template v-for="(job, index) in experiences">

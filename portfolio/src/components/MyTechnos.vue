@@ -3,7 +3,7 @@
 
 <template>
     <div id="skills">
-        <h2 class="text-highlight-1 section-title">My Tech Toolboxs</h2>
+        <h2 class="text-highlight-1 section-title">My Tech Toolbox</h2>
         <div id="icons-list">
             <div class="techno-container">
                 <i class="techno-icon devicon-html5-plain"></i>
@@ -16,6 +16,10 @@
             <div class="techno-container">
                 <i class="techno-icon devicon-javascript-plain"></i>
                 <br><span>Javascript</span>
+            </div>
+            <div class="techno-container">
+                <i class="techno-icon devicon-typescript-plain"></i>
+                <br><span>Typescript</span>
             </div>
             <div class="techno-container">
                 <i class="techno-icon devicon-vuejs-plain"></i>

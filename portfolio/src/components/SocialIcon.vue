@@ -9,7 +9,7 @@ const props = defineProps({
 
 <template>
     <a :href="props.link">
-        <img class="social-img" :src="`/assets/${props.img}.png`" :alt="props.alt" width="36px">
+        <img class="social-img" :src="`/PortfolioVue/assets/${props.img}.png`" :alt="props.alt" width="36px">
     </a>
 </template>
 
