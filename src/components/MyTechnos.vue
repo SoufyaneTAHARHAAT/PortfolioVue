@@ -42,16 +42,24 @@
                 <br><span>Expressjs</span>
             </div>
             <div class="techno-container">
-                <i class="techno-icon devicon-postgresql-plain"></i>
-                <br><span>Postgresql</span>
-            </div>
-            <div class="techno-container">
                 <i class="techno-icon devicon-spring-original"></i>
                 <br><span>Springboot</span>
             </div>
             <div class="techno-container">
+                <i class="techno-icon devicon-postgresql-plain"></i>
+                <br><span>Postgresql</span>
+            </div>
+            <div class="techno-container">
                 <i class="techno-icon devicon-docker-plain"></i>
                 <br><span>Docker</span>
+            </div>
+            <div class="techno-container">
+                <i class="techno-icon devicon-kubernetes-plain"></i>
+                <br><span>Kubernetes</span>
+            </div>
+            <div class="techno-container">
+                <i class="techno-icon devicon-sonarqube-original"></i>
+                <br><span>Sonarqube</span>
             </div>
             <div class="techno-container">
                 <i class="techno-icon devicon-python-plain"></i>
@@ -64,14 +72,6 @@
             <div class="techno-container">
                 <i class="techno-icon devicon-cplusplus-plain"></i>
                 <br><span>C++</span>
-            </div>
-            <div class="techno-container">
-                <i class="techno-icon devicon-kubernetes-plain"></i>
-                <br><span>Kubernetes</span>
-            </div>
-            <div class="techno-container">
-                <i class="techno-icon devicon-sonarqube-original"></i>
-                <br><span>Sonarqube</span>
             </div>
         </div>
     </div>
