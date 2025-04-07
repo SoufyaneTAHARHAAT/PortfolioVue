@@ -13,9 +13,6 @@ jobs:
       - name: Checkout du code
         uses: actions/checkout@v3
 
-      - name: se déplacer dans Portfolio
-        run: cd PortfolioVue
-
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:

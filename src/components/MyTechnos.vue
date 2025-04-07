@@ -61,10 +61,10 @@
                 <i class="techno-icon devicon-java-plain"></i>
                 <br><span>Java</span>
             </div>
-            <div class="techno-container">
+            <!-- <div class="techno-container">
                 <i class="techno-icon devicon-cplusplus-plain"></i>
                 <br><span>C++</span>
-            </div>
+            </div> -->
             <div class="techno-container">
                 <i class="techno-icon devicon-kubernetes-plain"></i>
                 <br><span>Kubernetes</span>
