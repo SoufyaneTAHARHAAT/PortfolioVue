@@ -22,6 +22,10 @@
                 <br><span>Typescript</span>
             </div>
             <div class="techno-container">
+                <i class="techno-icon devicon-angular-plain"></i>
+                <br><span>Angular</span>
+            </div>
+            <div class="techno-container">
                 <i class="techno-icon devicon-vuejs-plain"></i>
                 <br><span>Vuejs</span>
             </div>
