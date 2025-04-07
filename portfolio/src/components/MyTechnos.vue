@@ -29,10 +29,10 @@
                 <i class="techno-icon devicon-vuejs-plain"></i>
                 <br><span>Vuejs</span>
             </div>
-            <div class="techno-container">
+            <!-- <div class="techno-container">
                 <i class="techno-icon devicon-react-original"></i>
                 <br><span>React</span>
-            </div>
+            </div> -->
             <div class="techno-container">
                 <i class="techno-icon devicon-nodejs-plain"></i>
                 <br><span>Nodejs</span>
