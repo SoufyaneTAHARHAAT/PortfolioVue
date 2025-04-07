@@ -69,6 +69,10 @@
                 <i class="techno-icon devicon-kubernetes-plain"></i>
                 <br><span>Kubernetes</span>
             </div>
+            <div class="techno-container">
+                <i class="techno-icon devicon-sonarqube-original"></i>
+                <br><span>Sonarqube</span>
+            </div>
         </div>
     </div>
 </template>
